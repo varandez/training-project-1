@@ -64,3 +64,10 @@ function detectPersonaLevel() {
 
 detectPersonaLevel();
 
+function showMyDB(hidden) {
+    if (!hidden) {
+        console.log(personalMovieDB);
+    }
+}
+
+showMyDB(personalMovieDB.privat);
